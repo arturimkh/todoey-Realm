@@ -75,10 +75,8 @@
 		18A424EE29CE0B32004AF652 /* todoey-Realm */ = {
 			isa = PBXGroup;
 			children = (
-				18A424F329CE0B32004AF652 /* ToDoViewController.swift */,
-				18A4250929CE1480004AF652 /* Item.swift */,
-				18A4250B29CE1505004AF652 /* Category.swift */,
-				18A4250529CE0CBA004AF652 /* CategoryViewController.swift */,
+				18A4250E29D4E4FB004AF652 /* Controller */,
+				18A4250D29D4E4EF004AF652 /* Model */,
 				18A4250429CE0C5F004AF652 /* Application */,
 				18A4250329CE0B5D004AF652 /* Resources */,
 			);
@@ -102,6 +100,24 @@
 				18A424F129CE0B32004AF652 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		18A4250D29D4E4EF004AF652 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A4250929CE1480004AF652 /* Item.swift */,
+				18A4250B29CE1505004AF652 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18A4250E29D4E4FB004AF652 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A424F329CE0B32004AF652 /* ToDoViewController.swift */,
+				18A4250529CE0CBA004AF652 /* CategoryViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		4009D2252F0E80B9EB9D8AAC /* Pods */ = {
